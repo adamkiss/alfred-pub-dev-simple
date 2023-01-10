@@ -15,9 +15,10 @@ include: package:lints/recommended.yaml
 
 # Uncomment the following section to specify additional rules.
 
-# linter:
-#   rules:
-#     - camel_case_types
+linter:
+  rules:
+    non_constant_identifier_names: false # I want to use under_lined_functions
+    unnecessary_brace_in_string_interps: false # Yeah, `${}` is for 
 
 # analyzer:
 #   exclude:
