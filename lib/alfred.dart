@@ -37,6 +37,7 @@ Map<String, dynamic> alf_valid_item (
 		'subtitle': subtitle,
 		'valid': true
 	};
+	if (uid != null)  { result['uid'] = uid; }
 	if (icon != null) { result['icon'] = icon; }
 	if (arg != null)  { result['arg']  = arg;}
 	if (mods != null) { result['mods'] = mods; }
@@ -64,6 +65,7 @@ Map<String, dynamic> alf_invalid_item (
 		'subtitle': subtitle,
 		'valid': false
 	};
+	if (uid != null)  { result['uid'] = uid; }
 	if (icon != null) { result['icon'] = icon; }
 	if (arg != null)  { result['arg']  = arg;}
 	if (mods != null) { result['mods'] = mods; }
