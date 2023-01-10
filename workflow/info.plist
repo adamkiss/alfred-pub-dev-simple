@@ -48,7 +48,7 @@
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>keyword</key>
-				<string>pubdev</string>
+				<string>pub</string>
 				<key>queuedelaycustom</key>
 				<integer>6</integer>
 				<key>queuedelayimmediatelyinitially</key>
